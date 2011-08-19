@@ -1,0 +1,25 @@
+{
+  "name": "randomgen",
+  "description": "Random Alpha Numeric Generator",
+  "version": "0.0.1",
+  "homepage": "https://github.com/buzzshiva/randomgen",
+  "author": "buzz Shiva ",
+  "contributors": [ 
+    { "name": "Siva", "email": "" }, 
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "keywords": ["random", "string", "alphanumberic", "generator"],
+  "repository": {
+	"type" : "git",
+	"url"  : "git@github.com:buzzshiva/randomgen.git",
+  "main": "lib/index.js",
+  "bin": { 
+	"randomgen": "./bin/randomgen" 
+  },
+  "scripts": {
+  },
+  "engines": { "node": ">= 0.4.9 < 0.7.0" }
+}
